@@ -18,6 +18,10 @@
     "jest-junit": "^13.0.0"
   },
   "jest": {
+    "reporters":[
+    	"default",
+    	["jest-junit",{"outputDirectory":"./test-results/jest"}]
+    ]
     "testEnvironment": "node",
     "testResultsProcessor": "jest-junit",
     "coveragePathIgnorePatterns": [
