@@ -23,10 +23,6 @@
     "coveragePathIgnorePatterns": [
       "/node_modules/",
       "/public"
-    ],
-    "reporters": [
-    	"default",
-    	["jest-junit",{"outputDirectory":"./test-results/jest"}]
     ]
   }
 }
